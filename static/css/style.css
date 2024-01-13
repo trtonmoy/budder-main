@@ -1298,7 +1298,7 @@ textarea::placeholder {
 /*--------------------- FOOTER ---------------------*/
 footer {
   background-color: #000;
-  padding-top: 55px;
+  /* padding-top: 55px; */
   position: relative;
   z-index: 6;
 }
@@ -5922,5 +5922,30 @@ blockquote:before {
 
   .widget-instagram li img {
     height: 100px;
+  }
+}
+
+.gif {
+  width: 60%;
+  max-width: 80%;
+  border-radius: 5px;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.partner-img {
+  width: 300px;
+}
+
+@media screen and (max-width: 576px) {
+  .gif {
+    width: 95%;
+  }
+  .partners {
+    flex-direction: column;
   }
 }
