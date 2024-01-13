@@ -5949,3 +5949,11 @@ blockquote:before {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 768px) {
+  .gif {
+    width: 90%;
+  }
+  .partners {
+    flex-direction: column;
+  }
+}
