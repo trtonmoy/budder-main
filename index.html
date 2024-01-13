@@ -59,7 +59,7 @@
             <ul class="nav-list">
               <li><a href="#home">Home</a></li>
               <li><a href="#token">Tokenomics</a></li>
-              <li><a href="#roadmap">RoadMap</a></li>
+              <li><a onclick="openPdf()">RoadMap</a></li>
               <li>
                 <a href="tglink" target="_blank" onClick="window.open('tglink')"
                   >Telegram</a
@@ -168,9 +168,9 @@
             <div class="crossfit-slide-cover">
               <h2 class="title"><span>MEME</span> Coin</h2>
               <p>
-                Butterscotch is the name given to an anthropomorphic dog OC
-                created by Peargor in late November, and who quickly became very
-                popular on Twitter.
+                Butterscotch is a meme created by the Shiba Inu community
+                artist. Butterscotch the Shiba Inu grew in popularity on social
+                media platform X extremely fast making it a well known meme.
               </p>
             </div>
           </div>
@@ -202,9 +202,8 @@
             <div class="crossfit-slide-cover">
               <h2 class="title">Launched on <span>ETH</span></h2>
               <p>
-                Butterscotch is the name given to an anthropomorphic dog OC
-                created by Peargor in late November, and who quickly became very
-                popular on Twitter.
+                Budder Dawg (Ticker) $BUDDER is a token launched on the Ethereum
+                Blockchain following its predecessor Shiba Inu (Ticker) $SHIB.
               </p>
             </div>
           </div>
@@ -407,7 +406,7 @@
     <!-- ============ S-OUR-PROGRAMS END ============ -->
 
     <!-- =============== S-OUT-TRAINER =============== -->
-    <section
+    <!-- <section
       id="roadmap"
       class="s-out-trainer"
       style="background-image: url(static/image/bg-contacts.svg)"
@@ -500,7 +499,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ============= S-OUT-TRAINER END ============= -->
 
     <!-- ============ S-CROSSFIT-BANNER ============ -->
@@ -526,7 +525,7 @@
           <ul class="footer-menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#token">Tokenomics</a></li>
-            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a onclick="openPdf()">Roadmap</a></li>
             <li>
               <a href="tglink" target="_blank" onClick="window.open('tglink')"
                 >Telegram</a
@@ -574,6 +573,15 @@
     <!--================= TO TOP END =================-->
 
     <!--=================== SCRIPT	===================-->
+    <script>
+      function openPdf() {
+        // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
+        var pdfPath = "./Budder dawg Roadmap.pdf";
+
+        // Open the PDF file in a new window or tab
+        window.open(pdfPath, "_blank");
+      }
+    </script>
     <script src="static/js/jquery-2.2.4.min.js"></script>
     <script src="static/js/slick.min.js"></script>
     <script src="static/js/rx-lazy.js"></script>

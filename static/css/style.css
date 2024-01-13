@@ -184,7 +184,7 @@ body {
   position: relative;
   overflow-x: hidden;
   color: #fff;
-  background-color: #202020;
+  background-color: #000000;
   font-weight: 400;
 }
 @media (max-width: 1199px) {
@@ -363,7 +363,7 @@ body.page-loaded .preloader-cover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #202020;
+  background-color: #000000;
   opacity: 1;
 }
 
@@ -474,7 +474,7 @@ header {
   opacity: 0;
   top: 0;
   z-index: 3;
-  background-color: #202020;
+  background-color: #000000;
   position: absolute;
   transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -559,7 +559,7 @@ header:after {
 }
 .nav-list li.dropdown ul {
   min-width: 100%;
-  background: #272a31;
+  background: #000000;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   display: none;
   padding-top: 8px;
@@ -740,7 +740,7 @@ header:after {
   z-index: 1;
   right: 40px;
   font-size: 12px;
-  background-color: #202020;
+  background-color: #000000;
 }
 .header-right .search-form__field:focus {
   width: 270px;
@@ -1082,7 +1082,7 @@ textarea {
   height: 44px;
   padding: 0 10px;
   font-family: "Poppins", sans-serif;
-  background-color: #272a31;
+  background-color: #000000;
   border: 2px solid transparent;
   border-bottom-color: #ca4907;
   color: #fff;
@@ -1631,7 +1631,7 @@ footer .social-list li {
   line-height: 50px;
   text-align: center;
   color: #fff;
-  background-color: #272a31;
+  background-color: #000000;
 }
 .to-top:hover {
   background-color: #ca4907;
@@ -1652,7 +1652,7 @@ footer .social-list li {
   left: 0;
   width: 100%;
   height: 66px;
-  background-color: #202020;
+  background-color: #000000;
   z-index: 4;
   pointer-events: none;
   bottom: -1px;
@@ -1941,7 +1941,7 @@ blockquote {
   padding: 30px 78px 30px 105px;
   position: relative;
   border-radius: 0;
-  background-color: #272a31;
+  background-color: #000000;
 }
 
 blockquote p {
@@ -2317,7 +2317,7 @@ blockquote:before {
   display: flex;
   align-items: flex-start;
   margin-bottom: 30px;
-  background-color: #272a31;
+  background-color: #000000;
   padding: 15px;
 }
 
@@ -2393,7 +2393,7 @@ blockquote:before {
   margin-bottom: 30px;
 }
 .s-related-posts .post-item-cover {
-  background-color: #272a31;
+  background-color: #000000;
   padding: 0 0 90px;
   min-height: 202px;
   position: relative;
@@ -2459,7 +2459,7 @@ blockquote:before {
 }
 
 .contact-item {
-  background-color: #272a31;
+  background-color: #000000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2517,7 +2517,7 @@ blockquote:before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #272a31;
+  background-color: #000000;
   position: relative;
 }
 .crossfit-item:before {
@@ -2592,7 +2592,7 @@ blockquote:before {
   left: 0;
   width: 100%;
   height: 24px;
-  background-color: #202020;
+  background-color: #000000;
   z-index: 2;
 }
 .s-our-programs:before {
@@ -2736,7 +2736,7 @@ blockquote:before {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  background-color: #272a31;
+  background-color: #000000;
   box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.15);
   background-position: center;
   background-repeat: no-repeat;
@@ -2859,7 +2859,7 @@ blockquote:before {
   left: 0;
   width: 100%;
   height: 24px;
-  background-color: #202020;
+  background-color: #000000;
   z-index: 1;
   pointer-events: none;
 }
@@ -2981,7 +2981,7 @@ blockquote:before {
 
 .training-schedule-top {
   border-top: 1px solid #ca4907;
-  background-color: #272a31;
+  background-color: #000000;
   line-height: 41px;
 }
 
@@ -3165,7 +3165,7 @@ blockquote:before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #272a31;
+  background-color: #000000;
   padding: 20px 0;
   height: 100%;
 }
@@ -3292,7 +3292,7 @@ blockquote:before {
   left: 0;
   width: 100%;
   height: 24px;
-  background-color: #202020;
+  background-color: #000000;
   z-index: 1;
   pointer-events: none;
 }
@@ -3345,7 +3345,7 @@ blockquote:before {
   left: 0;
   width: 100%;
   height: 24px;
-  background-color: #202020;
+  background-color: #000000;
   z-index: 2;
   pointer-events: none;
 }
@@ -3583,7 +3583,7 @@ blockquote:before {
   left: 0;
   width: 100%;
   height: 24px;
-  background-color: #202020;
+  background-color: #000000;
   z-index: 1;
   pointer-events: none;
 }
@@ -3652,7 +3652,7 @@ blockquote:before {
 .out-trainer-item {
   display: flex;
   justify-content: space-between;
-  background-color: #272a31;
+  background-color: #000000;
   align-items: stretch;
   transition: 0.25s ease-in;
 }
