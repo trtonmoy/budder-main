@@ -12,6 +12,66 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- =================== STYLE =================== -->
+    <!-- Modal CSS -->
+    <style type="text/css">
+      .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 99999;
+        border-radius: 10px;
+      }
+
+      .mod_content {
+        background-color: #131740;
+        width: 400px;
+        margin: 100px auto;
+        padding: 40px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      /* Hide the modal when not displayed */
+      .hidden {
+        display: none;
+      }
+
+      #yesButton {
+        padding: 8px 28px;
+        margin-right: 15px;
+        outline: none;
+        border: none;
+        background-color: #ca4907;
+        color: black;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+      #noButton {
+        padding: 8px 28px;
+        outline: none;
+        border: none;
+        background-color: #ca4907;
+        color: black;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+      .faq_inner .card-header h4 button::before {
+        display: none !important;
+      }
+
+      @media screen and (max-width: 768px) {
+        .mod_content {
+          width: 95%;
+        }
+        .mob_space {
+          margin-top: 50px;
+        }
+      }
+    </style>
     <link
       rel="shortcut icon"
       href="/static/image/logo.png"
@@ -59,7 +119,7 @@
             <ul class="nav-list">
               <li><a href="#home">Home</a></li>
               <li><a href="#token">Tokenomics</a></li>
-              <li><a onclick="openPdf()">RoadMap</a></li>
+              <!-- <li><a onclick="openPdf()">RoadMap</a></li> -->
               <li>
                 <a href="tglink" target="_blank" onClick="window.open('tglink')"
                   >Telegram</a
@@ -100,6 +160,73 @@
       </div>
     </header>
     <!-- =============== HEADER END =============== -->
+
+    <!-- Modal Section -->
+    <div id="myModal" class="modal">
+      <div class="mod_content" style="background-color: #131740">
+        <p style="color: #fff; font-size: 17px">
+          Are you ready to explore BUDDER DAWG ?
+        </p>
+        <div
+          style="
+            text-align: center;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <img
+            src="/static/image/img.jpg"
+            style="width: 400px; margin: 20px 0; border-radius: 7px"
+            alt=""
+          />
+        </div>
+        <div
+          class="flex_dis"
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <button style="color: white" id="yesButton">Yes</button>
+          <button style="color: white" id="noButton">No</button>
+        </div>
+      </div>
+    </div>
+    <audio style="opacity: 1" id="closingAudio" src="./kPOP.mp3"></audio>
+    <script>
+      window.onload = function () {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+
+        // Close the modal when clicking outside of it
+        window.onclick = function (event) {
+          var closeButton = document.getElementById("closeModal");
+          var closingAudio = document.getElementById("closingAudio");
+
+          const yesButton = document.getElementById("yesButton");
+          const noButton = document.getElementById("noButton");
+
+          if (yesButton) {
+            modal.style.display = "none";
+            closingAudio.play();
+          } else {
+            if (noButton) {
+              modal.style.display = "none";
+              closingAudio.play();
+            }
+          }
+
+          // yesButton.addEventListener("click", function () {
+          //   modal.style.display = "none";
+          //   closingAudio.play();
+          // });
+
+          // // Hide the modal when "No" is clicked
+          // noButton.addEventListener("click", function () {
+          //   modal.style.display = "none";
+          // });
+        };
+      };
+    </script>
 
     <!-- ============ S-CROSSFIT-SLIDER ============ -->
     <section class="s-crossfit-slider">
@@ -555,7 +682,7 @@
           <ul class="footer-menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#token">Tokenomics</a></li>
-            <li><a onclick="openPdf()">Roadmap</a></li>
+            <!-- <li><a onclick="openPdf()">Roadmap</a></li> -->
             <li>
               <a href="tglink" target="_blank" onClick="window.open('tglink')"
                 >Telegram</a
@@ -600,7 +727,7 @@
     <!--================= TO TOP END =================-->
 
     <!--=================== SCRIPT	===================-->
-    <script>
+    <!-- <script>
       function openPdf() {
         // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
         var pdfPath = "./Budder dawg Roadmap.pdf";
@@ -608,7 +735,7 @@
         // Open the PDF file in a new window or tab
         window.open(pdfPath, "_blank");
       }
-    </script>
+    </script> -->
     <script src="static/js/jquery-2.2.4.min.js"></script>
     <script src="static/js/slick.min.js"></script>
     <script src="static/js/rx-lazy.js"></script>
