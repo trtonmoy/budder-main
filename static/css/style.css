@@ -226,7 +226,7 @@ a {
   transition: 0.25s ease-in;
 }
 a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 h1,
@@ -291,7 +291,7 @@ h6 {
   margin-bottom: 20px;
 }
 .title-decor span {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .title-decor:before {
   content: "";
@@ -301,7 +301,7 @@ h6 {
   transform: translateX(-50%);
   width: 45px;
   height: 4px;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
 }
 
 .slogan {
@@ -404,7 +404,7 @@ body.page-loaded .preloader-cover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   animation: cube-loader 2.76s infinite linear both;
   transform-origin: 100% 100%;
 }
@@ -491,7 +491,7 @@ header:before {
   left: -100%;
   width: 100%;
   height: 100vh;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   transition: none;
   z-index: 1;
 }
@@ -546,16 +546,16 @@ header:after {
   color: #fff;
 }
 .nav-list li a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .nav-list li a i {
   margin-left: 5px;
 }
 .nav-list li.menu-active a {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .nav-list li.menu-active a i {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .nav-list li.dropdown ul {
   min-width: 100%;
@@ -575,10 +575,10 @@ header:after {
   padding: 5px 15px 5px 25px;
 }
 .nav-list li.dropdown ul li a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .nav-list li.dropdown ul li.active a {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 @media (min-width: 768px) {
@@ -730,7 +730,7 @@ header:after {
   width: 60px;
   height: 40px;
   border: none;
-  border-bottom: 1px solid #ff00e1;
+  border-bottom: 1px solid #ffb2c6;
   background-color: transparent;
   border-color: transparent;
   font-family: "Righteous";
@@ -745,7 +745,7 @@ header:after {
 .header-right .search-form__field:focus {
   width: 270px;
   border-color: transparent;
-  border-bottom-color: #ff00e1;
+  border-bottom-color: #ffb2c6;
 }
 .header-right .search-form__submit {
   padding: 5px;
@@ -753,13 +753,13 @@ header:after {
   width: 40px;
   height: 40px;
   background-color: transparent;
-  color: #ff00e1;
+  color: #ffb2c6;
   position: relative;
   z-index: 2;
   border: none;
 }
 .header-right .search-form__submit:hover {
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   color: #fff;
 }
 
@@ -780,7 +780,7 @@ header:after {
 .header-cont li i {
   margin-right: 15px;
   font-size: 14px;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /*--------------------- HEADER-FITNESS ---------------------*/
@@ -804,7 +804,7 @@ header:after {
   color: #9f9f9f;
 }
 .header-fitness .top-panel-row .header-cont a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .header-fitness .top-panel-center {
   justify-content: center;
@@ -1084,7 +1084,7 @@ textarea {
   font-family: "Poppins", sans-serif;
   background-color: #000000;
   border: 2px solid transparent;
-  border-bottom-color: #ff00e1;
+  border-bottom-color: #ffb2c6;
   color: #fff;
   font-weight: 400;
   transition: 0.25s ease-in;
@@ -1095,7 +1095,7 @@ input[type="email"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
-  border-color: #ff00e1;
+  border-color: #ffb2c6;
 }
 
 textarea {
@@ -1171,15 +1171,15 @@ textarea::placeholder {
   height: 40px;
   text-align: center;
   color: #fff;
-  border: 2px solid #ff00e1;
+  border: 2px solid #ffb2c6;
   flex: 0 0 auto;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   font-size: 14px;
 }
 .search-form .btn-form:hover,
 .subscribe-form .btn-form:hover {
   background-color: transparent;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .search-form .inp-form::-moz-placeholder,
 .subscribe-form .inp-form::-moz-placeholder {
@@ -1237,7 +1237,7 @@ textarea::placeholder {
 .checkbox-cover p:before {
   content: "";
   display: inline-block;
-  border: 1px solid #ff00e1;
+  border: 1px solid #ffb2c6;
   width: 26px;
   height: 26px;
   line-height: 24px;
@@ -1247,7 +1247,7 @@ textarea::placeholder {
   top: -2px;
   left: 0;
   text-align: center;
-  color: #ff00e1;
+  color: #ffb2c6;
   border-radius: 5px;
 }
 
@@ -1264,7 +1264,7 @@ textarea::placeholder {
 
 .checkbox-cover input:checked + p:before {
   content: "\f00c";
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   color: #fff;
 }
 
@@ -1273,7 +1273,7 @@ textarea::placeholder {
 }
 
 #success_page h3 {
-  color: #ff00e1;
+  color: #ffb2c6;
   margin-bottom: 5px;
 }
 
@@ -1289,7 +1289,7 @@ textarea::placeholder {
 }
 
 #message .error_message {
-  color: #ff00e1;
+  color: #ffb2c6;
   font-weight: 500;
   font-size: 18px;
 }
@@ -1395,7 +1395,7 @@ footer .social-list li {
   margin-right: 0;
 }
 .footer-menu li.active a {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .footer-menu li a {
   font-family: "Righteous", sans-serif;
@@ -1449,7 +1449,7 @@ footer .social-list li {
   justify-content: center;
 }
 .footer-fitness .footer-bottom .copyright a {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .footer-fitness .footer-bottom .copyright a:hover {
   color: #fff;
@@ -1581,8 +1581,8 @@ footer .social-list li {
 .btn {
   font-size: 16px;
   padding: 11px 40px 10px;
-  border: 2px solid #ff00e1;
-  background-color: #ff00e1;
+  border: 2px solid #ffb2c6;
+  background-color: #ffb2c6;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
@@ -1594,7 +1594,7 @@ footer .social-list li {
 }
 .btn:hover {
   background-color: transparent;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /*--------------------- SOCIAL LIST ---------------------*/
@@ -1615,7 +1615,7 @@ footer .social-list li {
   font-size: 18px;
 }
 .social-list a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /*----------------------- TO-TOP -----------------------*/
@@ -1634,7 +1634,7 @@ footer .social-list li {
   background-color: #000000;
 }
 .to-top:hover {
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   color: #fff;
 }
 .to-top.active {
@@ -1692,7 +1692,7 @@ footer .social-list li {
 }
 .slider-navigation .slick-dots li:hover button,
 .slider-navigation .slick-dots li.slick-active button {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .slider-navigation .slick-dots li button {
   background-color: transparent;
@@ -1719,7 +1719,7 @@ footer .social-list li {
   fill: #fff;
 }
 .slider-navigation .slick-arrow svg {
-  fill: #ff00e1;
+  fill: #ffb2c6;
   transition: 0.25s ease-in;
 }
 .slider-navigation .slick-arrow.slick-arrow-prev {
@@ -1792,7 +1792,7 @@ footer .social-list li {
   width: 100%;
 }
 .crossfit-slide .title span {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .crossfit-slide p {
   max-width: 660px;
@@ -1817,7 +1817,7 @@ footer .social-list li {
 }
 
 .crossfit-slider-lite .crossfit-slide .title span {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 .scene {
@@ -1900,7 +1900,7 @@ footer .social-list li {
   font-size: 16px;
   margin-right: 10px;
   margin-top: -2px;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .post-item-cover .meta .post-by a {
   margin-right: 5px;
@@ -1974,7 +1974,7 @@ blockquote:before {
   top: 30px;
   left: 30px;
   font-family: "FontAwesome";
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /*------------------------ WIDGET ------------------------*/
@@ -2023,7 +2023,7 @@ blockquote:before {
   margin-top: 10px;
 }
 .widget-tags ul li a {
-  border: 2px solid #ff00e1;
+  border: 2px solid #ffb2c6;
   box-sizing: border-box;
   border-radius: 0;
   font-size: 14px;
@@ -2050,7 +2050,7 @@ blockquote:before {
 }
 .widget-archive li a:hover,
 .widget-categories li a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 .widget-archive li a:before,
@@ -2058,7 +2058,7 @@ blockquote:before {
   content: "\f105";
   font-family: "FontAwesome";
   margin-right: 10px;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /* WIDGET-RECENT-POSTS */
@@ -2070,7 +2070,7 @@ blockquote:before {
   font-weight: 600;
 }
 .widget-recent-posts li a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 .widget-recent-posts li .date {
@@ -2081,7 +2081,7 @@ blockquote:before {
 .widget-recent-posts li .date i {
   margin-right: 8px;
   font-size: 16px;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /* WIDGET-INSTAGRAM */
@@ -2110,7 +2110,7 @@ blockquote:before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  color: #ff00e1;
+  color: #ffb2c6;
   z-index: 2;
   font-weight: 500;
   font-size: 20px;
@@ -2181,8 +2181,8 @@ blockquote:before {
 }
 
 .pagination-item.active a {
-  border-color: #ff00e1;
-  background-color: #ff00e1;
+  border-color: #ffb2c6;
+  background-color: #ffb2c6;
 }
 
 .pagination-item.active {
@@ -2190,7 +2190,7 @@ blockquote:before {
 }
 
 .pagination-item:hover a {
-  border-color: #ff00e1;
+  border-color: #ffb2c6;
 }
 
 /*--------------------- S-SINGLE-NEWS ---------------------*/
@@ -2219,7 +2219,7 @@ blockquote:before {
 .autor-cover .name {
   font-weight: 400;
   font-size: 20px;
-  color: #ff00e1;
+  color: #ffb2c6;
   margin-bottom: 6px;
   font-family: "Righteous", sans-serif;
 }
@@ -2287,7 +2287,7 @@ blockquote:before {
 }
 
 .navigation-item:hover .title {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /*----------------------- REVIEWS -----------------------*/
@@ -2351,7 +2351,7 @@ blockquote:before {
 .review-content .date i {
   font-size: 16px;
   margin-right: 8px;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 .faq-cover li:not(:last-child) {
@@ -2372,10 +2372,10 @@ blockquote:before {
   transition: 0.25s ease-in;
 }
 .review-btn:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .review-btn:hover i {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /*----------------- S-RELATED-POSTS -----------------*/
@@ -2422,7 +2422,7 @@ blockquote:before {
   right: 15px;
   z-index: 2;
   text-transform: uppercase;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   text-align: center;
   font-weight: 600;
   min-width: 120px;
@@ -2470,7 +2470,7 @@ blockquote:before {
 
 .contact-item-left {
   width: 40%;
-  border-right: 2px solid #ff00e1;
+  border-right: 2px solid #ffb2c6;
 }
 .contact-item-left h4 {
   text-transform: uppercase;
@@ -2488,7 +2488,7 @@ blockquote:before {
   color: #bebebe;
 }
 .contact-item-right a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /*-------------------- S-CROSSFIT --------------------*/
@@ -2530,7 +2530,7 @@ blockquote:before {
   opacity: 0;
   margin-top: 40px;
   transform: translate(-50%, -50%);
-  border: 7px solid #ff00e1;
+  border: 7px solid #ffb2c6;
   transition: 0.4s ease-in-out;
   pointer-events: none;
 }
@@ -2685,7 +2685,7 @@ blockquote:before {
 .program-item .program-item-back:before {
   content: "";
   position: absolute;
-  border: 5px solid #ff00e1;
+  border: 5px solid #ffb2c6;
   top: -14px;
   bottom: -14px;
   left: 50%;
@@ -2754,7 +2754,7 @@ blockquote:before {
   margin-top: 40px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  border: 7px solid #ff00e1;
+  border: 7px solid #ffb2c6;
   transition: 0.4s ease-in-out;
   pointer-events: none;
 }
@@ -2778,7 +2778,7 @@ blockquote:before {
   transform: translateX(-50%);
   width: 45px;
   height: 4px;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
 }
 .club-card-item .price-cover .price {
   font-size: 72px;
@@ -2791,7 +2791,7 @@ blockquote:before {
 }
 .club-card-item .price-cover .date span {
   margin-left: -2px;
-  color: #ff00e1;
+  color: #ffb2c6;
   display: block;
   line-height: 0.9;
   font-size: 36px;
@@ -2829,7 +2829,7 @@ blockquote:before {
   margin-bottom: 19px;
 }
 .club-cards-lite .club-card-item .price-cover .price span {
-  color: #ff00e1;
+  color: #ffb2c6;
   font-size: 36px;
   line-height: 0.75;
   position: relative;
@@ -2848,7 +2848,7 @@ blockquote:before {
 /*----------------- S-CROSSFIT-BANNER -----------------*/
 .s-crossfit-banner {
   position: relative;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   display: flex;
   justify-content: space-between;
 }
@@ -2944,7 +2944,7 @@ blockquote:before {
 }
 .crossfit-banner-right .text-bottom a {
   font-weight: 700;
-  color: #ff00e1;
+  color: #ffb2c6;
   position: relative;
 }
 .crossfit-banner-right .text-bottom a:before {
@@ -2954,7 +2954,7 @@ blockquote:before {
   bottom: -1px;
   left: 0;
   transition: 0.3s ease;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   height: 2px;
   width: 100%;
 }
@@ -2980,7 +2980,7 @@ blockquote:before {
 }
 
 .training-schedule-top {
-  border-top: 1px solid #ff00e1;
+  border-top: 1px solid #ffb2c6;
   background-color: #000000;
   line-height: 41px;
 }
@@ -3024,7 +3024,7 @@ blockquote:before {
 .training-schedule-table td .date {
   font-weight: 700;
   margin-top: 2px;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .training-schedule-table td .name {
   text-transform: capitalize;
@@ -3108,7 +3108,7 @@ blockquote:before {
   left: 0;
 }
 .about-info-cover .text a {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .about-info-cover .text a:hover {
   color: #fff;
@@ -3130,7 +3130,7 @@ blockquote:before {
   font-size: 23px;
 }
 .about-info-cover .social-list a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 .about-cont {
@@ -3149,7 +3149,7 @@ blockquote:before {
   font-size: 18px;
 }
 .about-cont li a {
-  color: #ff00e1;
+  color: #ffb2c6;
   font-size: 17px;
 }
 .about-cont li a:hover {
@@ -3173,7 +3173,7 @@ blockquote:before {
   font-family: "Righteous", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  border-right: 2px solid #ff00e1;
+  border-right: 2px solid #ffb2c6;
   width: 38%;
   padding: 5px 0;
 }
@@ -3241,7 +3241,7 @@ blockquote:before {
 }
 
 .our-trainer-info .name {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .our-trainer-info .prof {
   font-weight: 600;
@@ -3312,7 +3312,7 @@ blockquote:before {
   display: block;
   margin: 0 auto 21px;
   font-size: 48px;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .trainer-award-col h3 {
   margin-bottom: 5px;
@@ -3397,7 +3397,7 @@ blockquote:before {
 }
 .testimonials-slider .slick-dots li:hover,
 .testimonials-slider .slick-dots li.slick-active {
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
 }
 .testimonials-slider .slick-dots li:last-child {
   margin-right: 0;
@@ -3427,7 +3427,7 @@ blockquote:before {
 }
 .testimonial-slide .name {
   text-transform: uppercase;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .testimonial-slide .prof {
   text-transform: uppercase;
@@ -3444,7 +3444,7 @@ blockquote:before {
 }
 
 .testimonials-border .testimonials-slider {
-  border: 7px solid #ff00e1;
+  border: 7px solid #ffb2c6;
   padding: 47px 0;
 }
 .testimonials-border .testimonials-slider .slick-dots {
@@ -3486,7 +3486,7 @@ blockquote:before {
   height: calc(100% - 20px);
   width: calc(100% - 40px);
   margin-top: 40px;
-  border: 7px solid #ff00e1;
+  border: 7px solid #ffb2c6;
   pointer-events: none;
   transition: 0.4s ease;
   z-index: 2;
@@ -3525,14 +3525,14 @@ blockquote:before {
 }
 .best-trainer-slide .name {
   line-height: 1.2;
-  color: #ff00e1;
+  color: #ffb2c6;
   padding: 0 40px;
   transition: 0.4s ease;
   opacity: 0;
 }
 .best-trainer-slide .surname {
   line-height: 1.2;
-  color: #ff00e1;
+  color: #ffb2c6;
   padding: 0 40px;
   transition: 0.4s ease;
   opacity: 0;
@@ -3616,7 +3616,7 @@ blockquote:before {
   line-height: 0.75;
   font-family: "Righteous", sans-serif;
   position: relative;
-  color: #ff00e1;
+  color: #ffb2c6;
   padding-bottom: 26px;
 }
 .about-info-row .about-info-col .number:before {
@@ -3627,7 +3627,7 @@ blockquote:before {
   transform: translate(-50%, 0);
   width: 46px;
   height: 4px;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
 }
 .about-info-row .about-info-col h3 {
   text-transform: uppercase;
@@ -3663,7 +3663,7 @@ blockquote:before {
   color: #000;
 }
 .out-trainer-item:hover h3 a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .out-trainer-item:hover p {
   color: #000000;
@@ -3673,7 +3673,7 @@ blockquote:before {
   color: #000;
 }
 .out-trainer-item:hover .social-list li a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 .out-trainer-img {
@@ -3704,7 +3704,7 @@ blockquote:before {
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 16px;
-  color: #ff00e1;
+  color: #ffb2c6;
   transition: 0.25s ease-in;
   font-weight: 500;
 }
@@ -3778,7 +3778,7 @@ blockquote:before {
   background-color: #fff;
 }
 .s-counter .subscribe-form .inp-form:focus {
-  border-color: #ff00e1;
+  border-color: #ffb2c6;
 }
 
 #clockdiv {
@@ -3797,7 +3797,7 @@ blockquote:before {
 #clockdiv .clock-item span {
   display: block;
   font-size: 96px;
-  color: #ff00e1;
+  color: #ffb2c6;
   line-height: 0.75;
   margin-bottom: 10px;
 }
@@ -3853,7 +3853,7 @@ blockquote:before {
   right: -15px;
   height: 100%;
   width: calc(100% + 94px);
-  border: 7px solid #ff00e1;
+  border: 7px solid #ffb2c6;
   z-index: 1;
   pointer-events: none;
 }
@@ -3909,7 +3909,7 @@ blockquote:before {
 }
 .s-fitness-slider .slider-navigation .slick-dots li:hover button,
 .s-fitness-slider .slider-navigation .slick-dots li.slick-active button {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .s-fitness-slider .slider-navigation .slick-dots li button {
   color: #000;
@@ -3991,7 +3991,7 @@ blockquote:before {
   top: 0;
   height: 47px;
   width: 4px;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   transform: translateY(30%);
   transition: 0.2s ease-out;
   transition-delay: 0.8s;
@@ -3999,7 +3999,7 @@ blockquote:before {
 }
 .fitness-slide .fitness-slide-cover .title span {
   display: block;
-  color: #ff00e1;
+  color: #ffb2c6;
   margin-top: 32px;
   transform: translateX(-10%);
   transition: 0.2s ease-out;
@@ -4122,7 +4122,7 @@ blockquote:before {
 .fitness-program-item-front .fitness-program-item-inner {
   position: relative;
   z-index: 1;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   color: #fff;
   text-align: center;
   width: 100%;
@@ -4136,7 +4136,7 @@ blockquote:before {
   bottom: 100%;
   width: 100%;
   height: 30px;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   z-index: 2;
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
@@ -4162,7 +4162,7 @@ blockquote:before {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border: 7px solid #ff00e1;
+  border: 7px solid #ffb2c6;
   color: #fff;
   text-transform: uppercase;
   padding: 20px;
@@ -4245,7 +4245,7 @@ blockquote:before {
   right: -15px;
   left: -113px;
   height: 100%;
-  border: 7px solid #ff00e1;
+  border: 7px solid #ffb2c6;
   pointer-events: none;
 }
 .fitness-banner-right h2 {
@@ -4254,7 +4254,7 @@ blockquote:before {
 }
 .fitness-banner-right h2 span {
   display: block;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .fitness-banner-right p {
   font-size: 25px;
@@ -4262,7 +4262,7 @@ blockquote:before {
 }
 .fitness-banner-right p a {
   position: relative;
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .fitness-banner-right p a:before {
   content: "";
@@ -4271,7 +4271,7 @@ blockquote:before {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   transition: 0.25s ease-in;
 }
 .fitness-banner-right p a:hover:before {
@@ -4300,7 +4300,7 @@ blockquote:before {
   padding: 0px 0px 40px 0px;
 }
 .fitness-post-col .post-item-cover .post-header {
-  background-color: #ff00e1;
+  background-color: #ffb2c6;
   padding: 42px 0;
   background-position: center;
   background-repeat: no-repeat;
@@ -4327,7 +4327,7 @@ blockquote:before {
   color: #000;
 }
 .fitness-post-col .post-content .title a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 .fitness-post-col .post-footer {
   padding: 0 38px;
@@ -4359,7 +4359,7 @@ blockquote:before {
   color: #4d4d4d;
 }
 .fitness-post-col .post-footer .meta a:hover {
-  color: #ff00e1;
+  color: #ffb2c6;
 }
 
 /*----------------- S-FITNESS-GALLERY -----------------*/
@@ -4412,7 +4412,7 @@ blockquote:before {
   opacity: 0;
   margin-top: 40px;
   transform: translate(-50%, -50%);
-  border: 7px solid #ff00e1;
+  border: 7px solid #ffb2c6;
   transition: 0.4s ease-in-out;
   pointer-events: none;
   z-index: 3;
